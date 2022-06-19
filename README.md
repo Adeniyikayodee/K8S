@@ -8,3 +8,14 @@ These projects are as follows:
 - Familiarity with JavaScript.
 - Familiarity with the Linux Terminal.
 - Familiarity with Docker 
+
+## To Run
+- start docker 
+- start Kubernetes, -minikube-
+- start add ingress addon
+- cd notes-app
+- run "kubectl -f k8s"
+- run minikube dasboard 
+- run "minikube ip" e.g 192.168.49.2
+- run <ip>:80 in browser. e.g  192.168.49.2:80
+- boom...
