@@ -29,5 +29,7 @@ spec:
             - name: DB_DATABASE
               value: notesdb
             - name: DB_PASSWORD
-              value: 63eaQB9wtLqmNBpg
-          
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secret
+                  key: password
