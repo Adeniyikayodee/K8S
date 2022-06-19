@@ -17,3 +17,7 @@ spec:
           image: fhsinchy/notes-api
           ports:
             - containerPort: 3000
+          
+          env:
+            - name: DB_CONNECTION
+              value: pg
