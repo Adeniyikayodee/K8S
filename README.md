@@ -1,5 +1,5 @@
 # Kubernetes Project
-This project containts:
+This project contains:
 - A fullstack-notes-application - A full-stack CRUD application with [nginx](https://hub.docker.com/_/nginx/) as a reverse proxy.
 
 ## Prerequisites
